@@ -6,6 +6,7 @@ body{
   display: inline-block;
   float: left;
   margin: 0;
+  text-shadow: 1% 1%  black;
 
 }
 
@@ -50,14 +51,14 @@ p{
   font-size: 3vh;
   margin: 10%;
   color: green;
-  text-shadow: 2px 2px black;
+  text-shadow: 1% 1%  black;
 }
 
 h1{
   font-size: 4.5vh;
   color: green;
   margin: 10%;
-  text-shadow: 2px 2px black;
+  text-shadow: 1% 1%  black;
 }
 
 .video{
@@ -138,5 +139,5 @@ svg rect{
   font-size: 3vh;
   margin: 10%;
   color: green;
-  text-shadow: 2px 2px black;
+  text-shadow: 1% 1%  black;
 }
