@@ -6,6 +6,7 @@ body{
   display: inline-block;
   float: left;
   margin: 0;
+  text-shadow: 2px 2px #ff0000;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
