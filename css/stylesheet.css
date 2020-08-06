@@ -1,0 +1,328 @@
+/* BODY */
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  overflow-x: hidden;
+  font-family: 'Bitter', serif;
+  color: navy;
+  font-size: 2vh;
+  font-weight: bold;
+}
+h2{
+  font-weight: normal;
+  font-size: 2vh;
+}
+
+/* TYPE */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* MAIN ELEMENTS */
+#graphic_design {
+  width: 100%;
+  float: left;
+}
+
+#illustration {
+  width: 100%;
+  float: left;
+}
+
+#contact {
+  width: 50%;
+  float: left;
+}
+
+#about {
+  width: 50%;
+  float: left;
+}
+
+#cv {
+  width: 100%;
+  float: left;
+}
+
+/* MAIN PAGE MAIN ELEMENTS */
+/* full width */
+.full-width {
+  width: 100vw;
+  height: 72vh;
+  display: inline-block;
+  float: left;
+}
+
+.full-title {
+  margin-top: 2vh;
+  margin-left: 20vw;
+  float: left;
+  font-size: 3vh;
+}
+
+.full-date {
+  width: 30vw;
+  float: right;
+  margin-top: 2vh;
+  margin-right: 20vw;
+  text-align: right;
+}
+
+.full-video {
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 6vh;
+}
+
+.full-description {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 1vh;
+}
+
+.full-description>a {
+  float: right;
+}
+
+/* half width */
+.half-width-left {
+  width: 50vw;
+  height: 41vh;
+  float: left;
+  display: inline-block;
+}
+
+.half-width-right {
+  width: 50vw;
+  height: 41vh;
+  float: right;
+  display: inline-block;
+}
+
+/* LEFT */
+.half-width-left>.half-title {
+  margin-top: 2vh;
+  margin-left: 20vw;
+  float: left;
+  font-size: 1.2em;
+}
+
+.half-width-left>.half-date {
+  float: right;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  text-align: right;
+}
+
+.half-width-left>.half-video {
+  width: 28vw;
+  margin-left: 20vw;
+  margin-right: 2vw;
+  margin-top: 6vh;
+}
+
+.half-width-left>.half-description {
+  margin-left: 20vw;
+  margin-right: 2vw;
+  margin-top: 1vh;
+}
+
+/* RIGHT */
+.half-width-right>.half-title {
+  margin-top: 2vh;
+  margin-left: 2vw;
+  float: left;
+  font-size: 1.2em;
+}
+
+.half-width-right>.half-date {
+  float: right;
+  margin-top: 2vh;
+  margin-right: 20vw;
+  text-align: right;
+}
+
+.half-width-right>.half-video {
+  width: 28vw;
+  margin-right: 20vw;
+  margin-left: 2vw;
+  margin-top: 6vh;
+}
+
+.half-width-right>.half-description {
+  margin-right: 20vw;
+  margin-left: 2vw;
+  margin-top: 1vh;
+}
+
+/* all */
+.half-description>a {
+  float: right;
+}
+
+/* NAVIGATON */
+#navigation {
+  z-index: 100;
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+}
+
+/* GENERAL */
+a {
+  pointer-events: visible;
+  text-decoration: none;
+  color: navy;
+}
+
+a:hover {
+  color: #10069F;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* POST STYLES */
+.post_text {
+  margin-left: 20vw;
+  margin-right: 25vw;
+  margin-top: 1vh;
+  height: auto;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+.half-width-right > .post_text{
+  margin-left: 2vw;
+  margin-right: 20vw;
+}
+.half-width-left > .post_text{
+  margin-right: 2vw;
+}
+.post_text_cv{
+  margin-top: 1vh;
+  margin-left: 20vw;
+  margin-right: 25vw;
+  height: auto;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+.division{
+  width: 48%;
+  float: left;
+  padding: 1%;
+}
+.full-width-text {
+  height: auto;
+  width: 100vw;
+  display: inline-block;
+  float: left;
+}
+
+.post_picture {
+  height: auto;
+  width: 100vw;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.post_picture img {
+  object-fit: cover;
+  overflow: hidden;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.post_picture_full {
+  object-fit: contain;
+  text-align: center;
+  height: auto;
+  width: 100vw;
+  display: inline-block;
+  float: left;
+}
+
+.post_picture_full img {
+  width: 100%;
+    object-fit: cover;
+}
+
+/* FILTER ID's */
+#interactive {}
+
+#identity {}
+
+#print {}
+
+#type {}
+
+#video {}
+
+#books {}
+
+#stationery {}
+
+#other {}
+
+#final_outcome {}
+
+#process {}
+
+#other_projects {}
+
+#back
+
+/* COLORS */
+.creme1 {
+  background-color: #fff9f2;
+}
+
+.creme2 {
+  background-color: #ffece3;
+}
+.creme3{
+  background-color: #ffc5ad;
+}
+.creme4{
+  background-color: #ffe9e0;
+}
+
+.pink1 {
+  background-color: #ffc9d5;
+}
+
+.pink2 {
+  background-color: #e0b6be;
+}
+
+.pink3 {
+  background-color: #f0d8df;
+}
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffece3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e0b6be;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f0d8df;
+}
