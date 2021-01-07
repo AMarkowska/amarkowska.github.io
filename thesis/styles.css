@@ -22,11 +22,11 @@ overflow-x: hidden;
 }
 
 .navigation{
+  background-color: black;
   width: 100vw;
   height: 5vh;
   color:white;
   font-size: 1em;
-  display: grid;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(1, 1vh);
@@ -72,6 +72,8 @@ display: none;
   height: 2em;
   border-radius: 50%;
   background-color: red;
+  z-index: 101;
+  opacity: 0.8;
 }
 
 /* FOR MOBILE */
@@ -92,10 +94,11 @@ display: none;
     border-radius: 50%;
     background-color: red;
     transition: transform .25s;
+    z-index: 101;
+    opacity: 0.8;
   }
 .desktop_dot{
   display: none;}
-
 }
 
 /* IDs for navigation */
