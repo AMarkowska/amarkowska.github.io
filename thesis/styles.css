@@ -7,9 +7,12 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+overflow-x: hidden;
+overflow-y: scroll;
   margin: 0;
   padding: 0;
+  font-family: 'Agrandir';
+  font-size: 1em;
 }
 /* MAIN TEXT DIV */
 .container{
@@ -18,14 +21,12 @@ width: 50vw;
 height: 90vh;
 margin: 3vh 5vw 5vw 3vh;
 overflow-y: scroll;
-overflow-x: hidden;
 }
 
 .navigation{
-  background-color: black;
   width: 100vw;
   height: 5vh;
-  color:white;
+  color:red;
   font-size: 1em;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -43,14 +44,14 @@ overflow-x: hidden;
 .nav_block a{
   font-size: 1em;
 text-decoration: none;
-color: white;
+color: red;
 
 }
 .nav_block a:hover{
-    color:red;
+    color:white;
 }
 .nav_block a:active{
-  color:red;
+  color:white;
 }
 .nav_block a:visited{
   color:gray;
@@ -76,6 +77,73 @@ display: none;
   opacity: 0.8;
 }
 
+
+
+/* TYPE STYLES */
+p{
+font-size: 1em;
+margin: 1em;
+margin-right: 5em;
+margin-left: 3em;
+
+}
+h1{
+font-family: 'Grafier';
+font-size: 2em;
+color: #f20000;
+margin-left: 3em;
+margin-bottom: 2em;
+margin-right: 5em;
+      margin-top: 2em;
+
+}
+h2{
+font-family: 'Grafier';
+font-size: 1.5em;
+color: #f20000;
+margin-left: 3em;
+margin-bottom: 2em;
+margin-right: 5em;
+      margin-top: 2em;
+}
+#title1{
+font-family: 'Grafier';
+font-size: 10em;
+margin: 1em;
+color: #f20000;
+margin-top: 60vh;
+
+}
+#title2{
+  font-family: 'Grafier';
+  font-size: 10em;
+  margin: 1em;
+  color: #f20000;
+}
+#title3{
+  font-size: 2em;
+color: #f20000;
+font-family: 'Agrandir';
+margin: 1em;
+margin-bottom: 50vh;
+}
+  @font-face {
+  font-family: 'Agrandir';
+  src:
+       url('Agrandir-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Agrandir-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+
+}
+@font-face {
+font-family: 'Grafier';
+src:
+     url('Grafier-BoldDisplay.woff2') format('woff2'), /* Super Modern Browsers */
+     url('Grafier-BoldDisplay.woff') format('woff'), /* Pretty Modern Browsers */
+
+}
+
+/* PARALLAX */
+
 /* FOR MOBILE */
 
 @media only screen and (max-width: 1024px){
@@ -99,65 +167,17 @@ display: none;
   }
 .desktop_dot{
   display: none;}
+  p{
+    margin-right: 1em;
+margin-left: 1em;
+  }
+  h1,h2{
+    margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 2em;
+  }
 }
 
-/* PARALLAX */
-
-/*
-#parallax-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  backface-visibility: hidden;
-}
-
-.parallax-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  transform-origin: 50% 50%;
-  transform: translate3d(0px, 0px, 0px);
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-}
-
-.parallax-layer {
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  position: absolute;
-  display: block;
-  transition: transform .1s linear;
-}
-
-.figure1 {
-  background: #6A0610;
-  width: 90%;
-  height: 80%;
-  bottom: 5%;
-  left: 5%;
-}
-
-.figure2 {
-  background: #CC1B49;
-  width: 70%;
-  height: 60%;
-  bottom: 0%;
-  left: 10%;
-}
-
-.figure3 {
-  background: #CC1B49;
-  width: 40%;
-  height: 30%;
-  top: 7%;
-  right: 5%;
-} */
 /* IDs for navigation */
 #title{}
   #abstract{}
