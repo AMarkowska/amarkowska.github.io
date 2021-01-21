@@ -150,10 +150,40 @@ src:
 }
 
 /* PARALLAX */
+.parallax-container{
+  width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+backface-visibility: hidden;
+}
+.parallax-wrapper {
+  position: absolute;
+  /*background: white;*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: 50% 50%;
+  transform: translate3d(0px, 0px, 0px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
 
+.parallax-layer {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: absolute;
+  display: block;
+  /*transition: transform .1s linear;*/
+}
 /* FOR MOBILE */
 
 @media only screen and (max-width: 1024px){
+/* body{
+  overflow-x:
+} */
   .container{
     width: 90vw;
     height: 90vh;
@@ -183,13 +213,15 @@ margin-left: 1em;
         margin-right: 1em;
         margin-top: 2em;
   }
+  #title1, #title2{
+    font-size: 40%;
+  }
+  #title3{
+    font-size: 10%;
+  }
 }
-/* #title1, #title2{
-  font-size: 40%;
-}
-#title3{
-  font-size: 10%;
-} */
+
+
 /* IDs for navigation */
 #title{}
   #abstract{}
