@@ -177,7 +177,12 @@ margin-left: 1em;
         margin-top: 2em;
   }
 }
-
+#title1, #title2{
+  font-size: 20%;
+}
+#title3{
+  font-size: 4%;
+}
 /* IDs for navigation */
 #title{}
   #abstract{}
