@@ -1,0 +1,134 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+    background: linear-gradient(270deg, #fff0c5, #ffc5e2, #f8e4bf, #f8bfd1);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: navy;
+    float: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.full-image{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+.full-image > img{
+  width: 104vw;
+  height: auto;
+  max-height: 70vh;
+  margin-left: -1vw;
+  object-fit: contain;
+}
+
+h1 {
+font-size: 3em;
+margin-left: 60vw;
+margin-top: 20vh;
+transform: rotate(270deg);
+z-index: 100;
+width: 70%;
+margin-right: 10vw;
+position: fixed;
+background: linear-gradient(270deg, #3464eb, #092163, #351fff, #031442);
+background-size: 300% 300%;
+color: beige;
+-webkit-animation: AnimationName 11s ease infinite;
+animation: AnimationName 11s ease infinite;
+padding-top: 0;
+padding-right: 0;
+padding-left: 20px;
+padding-bottom: 8px;
+}
+
+.full-image > h2 {
+font-size: 2em;
+width: 45%;
+position: relative;
+margin-left: 5%;
+}
+
+
+.full-image > p {
+font-size: 1.5em;
+width: 45%;
+position: relative;
+margin-left: 10%;
+}
+.full-image > video{
+  max-height: 90vh;
+  width: auto;
+}
+/*
+.small-image{
+  width: 49%;
+  max-height: 50vh;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  border: 2%;
+  float: left;
+  display: inline-block;
+}
+
+.small-image > img{
+  width: 99%;
+  height: auto;
+  max-height: 99%;
+  object-fit: fill;
+}
+.small-image > video{
+  width:1080px;
+  height: 1920px;
+  padding: 4px;
+
+}
+.break{
+  width: 100%;
+  height: 10vh;
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(270deg, #fff0c5,, #f8e4bf, #f8bfd1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(175deg, #3464eb, #092163, #351fff, #031442);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(90deg, #fff0c5, #ffc5e2, #f8e4bf, #f8bfd1);
+}
